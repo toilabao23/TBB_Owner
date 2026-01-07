@@ -1,5 +1,5 @@
 local Guigetposition = Instance.new("ScreenGui")
-Guigetposition.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Guigetposition.Parent = game.Players.LocalPlayer.PlayerGui
 Guigetposition.Enabled = true
 Guigetposition.SafeAreaCompatibility = Enum.SafeAreaCompatibility.FullscreenExtension
 Guigetposition.ResetOnSpawn = false
@@ -19,7 +19,7 @@ Frame.BorderColor = BrickColor.new("Really black")
 Frame.SizeConstraint = Enum.SizeConstraint.RelativeXY
 Frame.ZIndex = 1
 Frame.AutomaticSize = Enum.AutomaticSize.None
-Frame.Size = UDim2.new(0, 311, 0, 382)
+Frame.Size = UDim2.new(0.21185286343097687, 0, 0.5, 0)
 Frame.Draggable = false
 Frame.Visible = true
 Frame.ClipsDescendants = false
