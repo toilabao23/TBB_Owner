@@ -1,0 +1,318 @@
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+-- Generated GUI code (place in a LocalScript or ModuleScript)
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.Enabled = true
+ScreenGui.SafeAreaCompatibility = Enum.SafeAreaCompatibility.FullscreenExtension
+ScreenGui.ResetOnSpawn = false
+ScreenGui.IgnoreGuiInset = false
+ScreenGui.Name = "ScreenGui"
+ScreenGui.DisplayOrder = 0
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ScreenInsets = Enum.ScreenInsets.CoreUISafeInsets
+ScreenGui.ClipToDeviceSafeArea = true
+local Frame = Instance.new("Frame")
+Frame.Parent = ScreenGui
+Frame.LayoutOrder = 0
+Frame.BorderMode = Enum.BorderMode.Outline
+Frame.Interactable = true
+Frame.AnchorPoint = Vector2.new(0, 0)
+Frame.BorderColor = BrickColor.new("Really black")
+Frame.SizeConstraint = Enum.SizeConstraint.RelativeXY
+Frame.ZIndex = 1
+Frame.AutomaticSize = Enum.AutomaticSize.None
+Frame.Size = UDim2.new(0, 311, 0, 316)
+Frame.Draggable = false
+Frame.Visible = true
+Frame.ClipsDescendants = false
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Selectable = false
+Frame.Style = Enum.FrameStyle.Custom
+Frame.SelectionOrder = 0
+Frame.Rotation = 0
+Frame.Transparency = 0
+Frame.BackgroundTransparency = 0
+Frame.Position = UDim2.new(0.05528255179524422, 0, 0.23074126243591309, 0)
+Frame.Active = false
+Frame.Name = "Frame"
+Frame.BorderSizePixel = 0
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+local UIListLayout = Instance.new("UIListLayout")
+UIListLayout.Parent = Frame
+UIListLayout.FillDirection = Enum.FillDirection.Vertical
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.HorizontalFlex = Enum.UIFlexAlignment.Fill
+UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Top
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Name = "UIListLayout"
+UIListLayout.Wraps = false
+UIListLayout.Padding = UDim.new(0.10000000149011612, 0)
+UIListLayout.ItemLineAlignment = Enum.ItemLineAlignment.Automatic
+UIListLayout.VerticalFlex = Enum.UIFlexAlignment.None
+local button = Instance.new("TextButton")
+button.Parent = Frame
+button.LayoutOrder = 0
+button.FontSize = Enum.FontSize.Size24
+button.LineHeight = 1
+button.Active = true
+button.Interactable = true
+button.TextStrokeTransparency = 1
+button.TextTruncate = Enum.TextTruncate.None
+button.SizeConstraint = Enum.SizeConstraint.RelativeXY
+button.ZIndex = 1
+button.BorderSizePixel = 0
+button.Draggable = false
+button.RichText = false
+button.Modal = false
+button.AutoButtonColor = true
+button.SelectionOrder = 0
+button.TextYAlignment = Enum.TextYAlignment.Center
+button.TextScaled = false
+button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+button.FontFace =
+	Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+button.BorderMode = Enum.BorderMode.Outline
+button.Selectable = true
+button.OpenTypeFeatures = ""
+button.AnchorPoint = Vector2.new(0, 0)
+button.Visible = true
+button.TextXAlignment = Enum.TextXAlignment.Center
+button.BorderColor = BrickColor.new("Really black")
+button.TextWrapped = false
+button.Selected = false
+button.AutomaticSize = Enum.AutomaticSize.None
+button.Size = UDim2.new(0, 224, 0, 50)
+button.TextWrap = false
+button.TextTransparency = 0
+button.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+button.ClipsDescendants = false
+button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+button.Text = "Get Position"
+button.TextSize = 20
+button.TextDirection = Enum.TextDirection.Auto
+button.Rotation = 0
+button.Font = Enum.Font.SourceSans
+button.BackgroundTransparency = 0
+button.Position = UDim2.new(0, 0, 0, 0)
+button.TextColor3 = Color3.fromRGB(0, 0, 0)
+button.MaxVisibleGraphemes = -1
+button.Style = Enum.ButtonStyle.Custom
+button.Name = "button"
+local UIDragDetector = Instance.new("UIDragDetector")
+UIDragDetector.Parent = Frame
+UIDragDetector.MinDragAngle = 0
+UIDragDetector.SelectionModeRotateSpeed = 90
+UIDragDetector.MinDragTranslation = UDim2.new(0, 0, 0, 0)
+UIDragDetector.SelectionModeDragSpeed = UDim2.new(0, 300, 0, 300)
+UIDragDetector.BoundingBehavior = Enum.UIDragDetectorBoundingBehavior.Automatic
+UIDragDetector.ResponseStyle = Enum.UIDragDetectorResponseStyle.Offset
+UIDragDetector.DragSpace = Enum.UIDragDetectorDragSpace.Parent
+UIDragDetector.Enabled = true
+UIDragDetector.UIDragSpeedAxisMapping = Enum.UIDragSpeedAxisMapping.XY
+UIDragDetector.Name = "UIDragDetector"
+UIDragDetector.DragStyle = Enum.UIDragDetectorDragStyle.TranslatePlane
+UIDragDetector.DragRotation = 0
+UIDragDetector.ActivatedCursorIconContent = Content.none
+UIDragDetector.MaxDragTranslation = UDim2.new(0, 0, 0, 0)
+UIDragDetector.CursorIconContent = Content.none
+UIDragDetector.DragRelativity = Enum.UIDragDetectorDragRelativity.Absolute
+UIDragDetector.MaxDragAngle = 0
+UIDragDetector.DragUDim2 = UDim2.new(0, 0, 0, 0)
+UIDragDetector.CursorIcon = ""
+UIDragDetector.DragAxis = Vector2.new(1, 0)
+UIDragDetector.ActivatedCursorIcon = ""
+local TextBox = Instance.new("TextBox")
+TextBox.Parent = Frame
+TextBox.MultiLine = false
+TextBox.CursorPosition = -1
+TextBox.LineHeight = 1
+TextBox.Active = true
+TextBox.Interactable = true
+TextBox.TextStrokeTransparency = 1
+TextBox.SelectionStart = -1
+TextBox.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+TextBox.SizeConstraint = Enum.SizeConstraint.RelativeXY
+TextBox.ZIndex = 1
+TextBox.BorderSizePixel = 0
+TextBox.TextEditable = true
+TextBox.Draggable = false
+TextBox.RichText = false
+TextBox.SelectionOrder = 0
+TextBox.TextYAlignment = Enum.TextYAlignment.Center
+TextBox.TextScaled = false
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Visible = true
+TextBox.FontFace =
+	Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+TextBox.TextXAlignment = Enum.TextXAlignment.Center
+TextBox.BorderMode = Enum.BorderMode.Outline
+TextBox.Selectable = true
+TextBox.TextWrapped = false
+TextBox.OpenTypeFeatures = ""
+TextBox.TextWrap = false
+TextBox.AnchorPoint = Vector2.new(0, 0)
+TextBox.TextTruncate = Enum.TextTruncate.None
+TextBox.TextTransparency = 0
+TextBox.BorderColor = BrickColor.new("Really black")
+TextBox.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.PlaceholderText = ""
+TextBox.AutomaticSize = Enum.AutomaticSize.None
+TextBox.ShowNativeInput = true
+TextBox.TextSize = 20
+TextBox.TextDirection = Enum.TextDirection.Auto
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.ClipsDescendants = false
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.Text = ""
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.LayoutOrder = 0
+TextBox.Rotation = 0
+TextBox.Font = Enum.Font.SourceSans
+TextBox.BackgroundTransparency = 0
+TextBox.Position = UDim2.new(0, 0, 0, 0)
+TextBox.FontSize = Enum.FontSize.Size24
+TextBox.ClearTextOnFocus = true
+TextBox.Name = "TextBox"
+TextBox.MaxVisibleGraphemes = -1
+local button2 = Instance.new("TextButton")
+button2.Parent = Frame
+button2.LayoutOrder = 0
+button2.FontSize = Enum.FontSize.Size24
+button2.LineHeight = 1
+button2.Active = true
+button2.Interactable = true
+button2.TextStrokeTransparency = 1
+button2.TextTruncate = Enum.TextTruncate.None
+button2.SizeConstraint = Enum.SizeConstraint.RelativeXY
+button2.ZIndex = 1
+button2.BorderSizePixel = 0
+button2.Draggable = false
+button2.RichText = false
+button2.Modal = false
+button2.AutoButtonColor = true
+button2.SelectionOrder = 0
+button2.TextYAlignment = Enum.TextYAlignment.Center
+button2.TextScaled = false
+button2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+button2.FontFace =
+	Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+button2.BorderMode = Enum.BorderMode.Outline
+button2.Selectable = true
+button2.OpenTypeFeatures = ""
+button2.AnchorPoint = Vector2.new(0, 0)
+button2.Visible = true
+button2.TextXAlignment = Enum.TextXAlignment.Center
+button2.BorderColor = BrickColor.new("Really black")
+button2.TextWrapped = false
+button2.Selected = false
+button2.AutomaticSize = Enum.AutomaticSize.None
+button2.Size = UDim2.new(0, 203, 0, 50)
+button2.TextWrap = false
+button2.TextTransparency = 0
+button2.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+button2.ClipsDescendants = false
+button2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+button2.Text = "Check Position"
+button2.TextSize = 20
+button2.TextDirection = Enum.TextDirection.Auto
+button2.Rotation = 0
+button2.Font = Enum.Font.SourceSans
+button2.BackgroundTransparency = 0
+button2.Position = UDim2.new(0, 0, 0.6807692646980286, 0)
+button2.TextColor3 = Color3.fromRGB(0, 0, 0)
+button2.MaxVisibleGraphemes = -1
+button2.Style = Enum.ButtonStyle.Custom
+button2.Name = "button2"
+local button3 = Instance.new("TextButton")
+button3.Parent = Frame
+button3.LayoutOrder = 0
+button3.FontSize = Enum.FontSize.Size24
+button3.LineHeight = 1
+button3.Active = true
+button3.Interactable = true
+button3.TextStrokeTransparency = 1
+button3.TextTruncate = Enum.TextTruncate.None
+button3.SizeConstraint = Enum.SizeConstraint.RelativeXY
+button3.ZIndex = 1
+button3.BorderSizePixel = 0
+button3.Draggable = false
+button3.RichText = false
+button3.Modal = false
+button3.AutoButtonColor = true
+button3.SelectionOrder = 0
+button3.TextYAlignment = Enum.TextYAlignment.Center
+button3.TextScaled = false
+button3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+button3.FontFace =
+	Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+button3.BorderMode = Enum.BorderMode.Outline
+button3.Selectable = true
+button3.OpenTypeFeatures = ""
+button3.AnchorPoint = Vector2.new(0, 0)
+button3.Visible = true
+button3.TextXAlignment = Enum.TextXAlignment.Center
+button3.BorderColor = BrickColor.new("Really black")
+button3.TextWrapped = false
+button3.Selected = false
+button3.AutomaticSize = Enum.AutomaticSize.None
+button3.Size = UDim2.new(0, 200, 0, 50)
+button3.TextWrap = false
+button3.TextTransparency = 0
+button3.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+button3.ClipsDescendants = false
+button3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+button3.Text = "Destroy Part"
+button3.TextSize = 22
+button3.TextDirection = Enum.TextDirection.Auto
+button3.Rotation = 0
+button3.Font = Enum.Font.SourceSans
+button3.BackgroundTransparency = 0
+button3.Position = UDim2.new(0, 0, 0, 0)
+button3.TextColor3 = Color3.fromRGB(0, 0, 0)
+button3.MaxVisibleGraphemes = -1
+button3.Style = Enum.ButtonStyle.Custom
+button3.Name = "button3"
+function getposition()
+	local char = game:GetService("Players").LocalPlayer.Character
+	if char then
+		local hrp = char:FindFirstChild("HumanoidRootPart")
+		if hrp then
+			pcall(function()
+				print(hrp.Position)
+				setclipboard(tostring(hrp.Position))
+			end)
+		end
+	end
+end
+function checkposition()
+	local split = string.split(TextBox.Text, ",")
+	local x = tonumber(split[1])
+	local y = tonumber(split[2])
+	local z = tonumber(split[3])
+	local part = Instance.new("Part")
+	part.Name = "part position"
+	part.Anchored = true
+	part.CanCollide = false
+	part.Size = Vector3.new(1.5, 1.5, 1.5)
+	part.CFrame = CFrame.new(x, y, z)
+	part.Color = Color3.fromRGB(255, 0, 0)
+	part.Parent = workspace
+end
+
+button.MouseButton1Click:Connect(function()
+	pcall(getposition)
+end)
+button2.MouseButton1Click:Connect(function()
+	pcall(checkposition)
+end)
+button3.MouseButton1Click:Connect(function()
+	for i, part in pairs(game.Workspace:GetChildren()) do
+		if part:IsA("BasePart") and part.Name == "part position" then
+			pcall(function()
+				part:Destroy()
+			end)
+		end
+	end
+end)
